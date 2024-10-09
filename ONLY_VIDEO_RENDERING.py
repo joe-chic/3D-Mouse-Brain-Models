@@ -1,3 +1,5 @@
+# This used the napari version 0.4.18, now being upgraded to 0.5.3
+# pydantic remains as 2.7.4
 from PLANE_VIDEOS import *
 import os
 import napari
@@ -8,8 +10,8 @@ import time
 from PyQt5.QtWidgets import QApplication
 import cv2
 
-path = 'C:/Users/J_Hum/OneDrive/Documents/RATONES/'
-output_path = 'C:/Users/J_Hum/OneDrive/Documents/RATONES/TESTING_ZONE/'
+path = 'C:/Users/J_Hum/Documents/RATONES'
+output_path = 'C:/Users/J_Hum//Documents/RATONES/TESTING_ZONE/'
 
 Ry = [[]]
 
